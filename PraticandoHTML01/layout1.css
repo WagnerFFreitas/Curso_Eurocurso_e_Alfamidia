@@ -1,40 +1,42 @@
-h1
-{
-  font-size:33px;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  color: #262cea;
-}
+/* vídeo 8 - Visão geral de HTML com CSS */
+/* Estilo para o título principal (h1) */
+h1 {
+  font-size:33px; /* Define o tamanho da fonte para 33 pixeis */
+  text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+  font-family: sans-serif; /* Define uma fonte sem serifa */
+  color: #262cea; /* Define a cor do texto em azul (#262cea) */
+  }
 
-h2 
-{
-  font-size:20px;
-  text-transform: uppercase;
-  font-family: sans-serif;
-   color: #5656bd;
-}
-h3
-{
-  font-size:18px;
-  text-transform: uppercase;
-  font-family: sans-serif;
-   color: #5656bd;
-}
-p#descricao-curso
-{
-  color: #0000FF;
-}
-p
-{
-	font-size:16px;
-	font-family: sans-serif;
-    color: #FF0000;
-}
+/* Estilo para subtítulos (h2) */
+h2 {
+  font-size:20px; /* Define o tamanho da fonte para 20 pixeis */
+  text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+  font-family: sans-serif; /* Define uma fonte sem serifa */
+  color: #5656bd; /* Define a cor do texto em um tom de azul claro (#5656bd) */
+  }
 
-p.texto
-{
-	font-size:16px;
+/* Estilo para subtítulos menores (h3) */
+h3 {
+  font-size:18px; /* Define o tamanho da fonte para 18 pixeis */
+  text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+  font-family: sans-serif; /* Define uma fonte sem serifa */
+  color: #5656bd; /* Mesma cor azul clara usada no h2 */
+  }
 
+/* Estilo para o parágrafo com id 'descrição-curso' */
+p#descricao-curso {
+  color: #0000FF; /* Define a cor do texto como azul (#0000FF) */
+  }
 
-}
+/* Estilo geral para todos os parágrafos */
+p {
+	font-size:16px; /* Define o tamanho da fonte para 16 pixeis */
+	font-family: sans-serif; /* Define uma fonte sem serifa */
+  color: #FF0000; /* Define a cor do texto como vermelho (#FF0000) */
+  }
+
+/* Estilo para parágrafos com a classe 'texto' */
+p.texto {
+	font-size:16px; /* Define o tamanho da fonte para 16 pixeis */
+  }
 

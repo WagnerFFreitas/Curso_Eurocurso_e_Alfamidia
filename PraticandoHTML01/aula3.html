@@ -1,3 +1,7 @@
+<!-- vídeo 6 - Introdução ao HTML e apresentação do CSS -->
+<!-- Usando tags do CSS dentro do HTML e usando a Lista -->
+<!-- Tags de criação de lista: <ol></ol> e <li></li>-->
+<!-- Tags semânticas: <strong></strong> e <em></em>; caiu em desuso no HTML: <b></b> e <i></i>-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,35 +11,29 @@
 <body>
   <h1>Seção 3</h1>
     <h2>Seção 3.1</h2>
-     <p><b>Este é um texto usando b</b>. Hoje não representa o "negrito", mas sim que o texto tem algum tipo de destaque sem ser particularmente importante</p>.
-     <p><strong>Este é um texto importante</strong>, utiliza a tag strong. É mais relevante que o resto do parágrafo</p>.
-     <p>De forma análoga temos <i>itálico</i> e <em>ênfase</em>.
-     <br><br><br>
-     <p>Acima utilizamos o br, mas usamos para um efeito visual...não é esta a filosofia do HTML 5.
-     <p>No HTML 5, o br só deveria ser usado para separar poesias, endereços...
+    <p><b>Este é um texto usando b</b>. Hoje não representa o "negrito", mas sim que o texto tem algum tipo de destaque sem ser particularmente importante</p>.
+    <p><strong>Este é um texto importante</strong>, utiliza a tag strong. É mais relevante que o resto do parágrafo</p>.
+    <p>De forma análoga temos <i>itálico</i> e <em>ênfase</em>.
+    <br><br><br>
+    <p>Acima utilizamos o br, mas usamos para um efeito visual...não é esta a filosofia do HTML 5.
+    <p>No HTML 5, o br só deveria ser usado para separar poesias, endereços...
 
-     <p>O visual deve ser trabalhado em CSS, como veremos aqui:
+    <p>O visual deve ser trabalhado em CSS, como veremos aqui:
 
-     <p style="margin-top:60px">Este é um texto mais para baixo.
-     <p><strong style="font-weight:normal;color:blue">Este texto é importante, mas minha exibição de importante é usar azul</strong></p>.    
+    <p style="margin-top:60px">Este é um texto mais para baixo.
+    <p><strong style="font-weight:normal;color:blue">Este texto é importante, mas minha exibição de importante é usar azul</strong></p>.    
 
-     <p>Também podemos utilizar imagens: <img src="lady-in-yoga.jpg"></p>
-     <p>E também podemos criar listas, e listas dentro de listas:</p>
-     <ol><li>Item 1</li>
-        <li>Item 2
-        <ol>
-            <li>Item 2.1</li>
-            <li>Item 2.2</li>
-        </ol>
-        </li>
-        <li>Item 3</li>
-    </ol>
-
-
-
-
-
-
-
+    <p>Também podemos utilizar imagens: <img src="lady-in-yoga.jpg"></p>
+    <p>E também podemos criar listas, e listas dentro de listas:</p>
+    <ol> <!-- Início de uma lista ordenada (numerada) -->
+      <li>Item 1</li> <!-- Primeiro item da lista -->
+      <li>Item 2 <!-- Segundo item da lista, que contém uma sublista -->
+        <ol> <!-- Início de uma sublista ordenada dentro do item 2 -->
+          <li>Item 2.1</li> <!-- Primeiro item da sublista, numerado como 2.1 -->
+          <li>Item 2.2</li> <!-- Segundo item da sublista, numerado como 2.2 -->
+        </ol> <!-- Fim da sublista -->
+      </li>
+      <li>Item 3</li> <!-- Terceiro item da lista -->
+    </ol> <!-- Fim da lista ordenada -->
 </body>
 </html>

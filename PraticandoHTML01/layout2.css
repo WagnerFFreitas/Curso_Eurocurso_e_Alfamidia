@@ -1,53 +1,50 @@
-body
-{
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-}
-h1
-{
-  font-size:23px;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  color: #5656bd;
-  text-align: center;
-}
+/* vídeo 8 - Visão geral de HTML com CSS */
+body {
+	width: 600px; /* Define a largura do corpo da página */
+	margin-left: auto; /* Centraliza o corpo horizontalmente */
+	margin-right: auto; /* Centraliza o corpo horizontalmente */
+  }
 
-h2 
-{
-  font-size:20px;
-  text-transform: uppercase;
-  font-family: sans-serif;
-   color: #5656bd;
-}
-h3
-{
-  font-size:18px;
-  text-transform: uppercase;
-  font-family: sans-serif;
-   color: #5656bd;
-   display: inline-block;
-   width: 25%;
-}
-p
-{
-	font-size:16px;
-	font-family: sans-serif;
-}
-p#descricao-curso
-{
-	font-size:16px;
-}
-p.texto
-{
-	font-size:16px;
-	display: inline;
-	width:75%;
+h1 {
+	font-size: 23px; /* Define o tamanho da fonte do h1 */
+	text-transform: uppercase; /* Transforma o texto em maiúsculas */
+	font-family: sans-serif; /* Define uma fonte sem serifa */
+	color: #5656bd; /* Define a cor do texto em um tom de azul claro */
+	text-align: center; /* Alinha o texto ao centro */
+  }
 
-}
-div#corpo-da-pagina
-{
-	background-color:#ddd;
-	padding: 10px;
-}
+h2 {
+	font-size: 20px; /* Define o tamanho da fonte do h2 */
+	text-transform: uppercase; /* Transforma o texto em maiúsculas */
+	font-family: sans-serif; /* Define uma fonte sem serifa */
+	color: #5656bd; /* Define a cor do texto em um tom de azul claro */
+  }
 
+h3 {
+	font-size: 18px; /* Define o tamanho da fonte do h3 */
+	text-transform: uppercase; /* Transforma o texto em maiúsculas */
+	font-family: sans-serif; /* Define uma fonte sem serifa */
+	color: #5656bd; /* Define a cor do texto em um tom de azul claro */
+	display: inline-block; /* Faz com que o h3 se comporte como um bloco inline */
+	width: 25%; /* Define a largura do h3 como 25% do contêiner */
+  }
+
+p {
+	font-size: 16px; /* Define o tamanho da fonte do parágrafo */
+	font-family: sans-serif; /* Define uma fonte sem serifa */
+  }
+
+p#descricao-curso {
+	font-size: 16px; /* Define o tamanho da fonte para o parágrafo com o id "descricao-curso" */
+  }
+
+p.texto {
+	font-size: 16px; /* Define o tamanho da fonte para o parágrafo com a classe "texto" */
+	display: inline; /* Exibe o parágrafo como inline */
+	width: 75%; /* Define a largura como 75% do contêiner */
+  }
+
+div#corpo-da-pagina {
+	background-color: #ddd; /* Define a cor de fundo do div "corpo-da-pagina" como cinza claro */
+	padding: 10px; /* Define um espaçamento interno de 10 pixels ao redor do conteúdo do div */
+  }

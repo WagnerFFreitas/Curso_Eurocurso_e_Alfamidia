@@ -8,6 +8,9 @@
 	"settings": {
 		"editor.accessibilityPageSize": 16,
 		"editor.fontSize": 16,
-		"cSpell.language": "pt-BR"
+		"cSpell.language": "pt-BR",
+		"cSpell.words": [
+			"sublista"
+		]
 	}
 }
