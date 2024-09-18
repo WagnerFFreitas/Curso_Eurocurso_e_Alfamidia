@@ -1,5 +1,8 @@
-/* vídeo 8 - Visão geral de HTML com CSS */
+/* vídeo 8 - Aula 4 - Visão geral de HTML com CSS */
 /* Estilo para o título principal (h1) */
+/* aula4.html e style1.css */
+
+/* Este bloco configura o estilo para o títulos (h1) */
 h1 {
   font-size:33px; /* Define o tamanho da fonte para 33 pixeis */
   text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
@@ -7,7 +10,7 @@ h1 {
   color: #262cea; /* Define a cor do texto em azul (#262cea) */
   }
 
-/* Estilo para subtítulos (h2) */
+/* Este bloco configura o estilo para o subtítulos (h2) */
 h2 {
   font-size:20px; /* Define o tamanho da fonte para 20 pixeis */
   text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
@@ -15,7 +18,7 @@ h2 {
   color: #5656bd; /* Define a cor do texto em um tom de azul claro (#5656bd) */
   }
 
-/* Estilo para subtítulos menores (h3) */
+/* Este bloco configura o estilo para o subtítulos menores (h3) */
 h3 {
   font-size:18px; /* Define o tamanho da fonte para 18 pixeis */
   text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
@@ -23,19 +26,19 @@ h3 {
   color: #5656bd; /* Mesma cor azul clara usada no h2 */
   }
 
-/* Estilo para o parágrafo com id 'descrição-curso' */
+/* Este bloco configura o estilo para o parágrafo com id 'descrição-curso' */
 p#descricao-curso {
   color: #0000FF; /* Define a cor do texto como azul (#0000FF) */
   }
 
-/* Estilo geral para todos os parágrafos */
+/* Este bloco o estilo geral para todos os parágrafos */
 p {
 	font-size:16px; /* Define o tamanho da fonte para 16 pixeis */
 	font-family: sans-serif; /* Define uma fonte sem serifa */
   color: #FF0000; /* Define a cor do texto como vermelho (#FF0000) */
   }
 
-/* Estilo para parágrafos com a classe 'texto' */
+/* Este bloco o estilo para parágrafos com a classe 'texto' */
 p.texto {
 	font-size:16px; /* Define o tamanho da fonte para 16 pixeis */
   }
