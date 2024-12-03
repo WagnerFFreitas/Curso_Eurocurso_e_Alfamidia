@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Trabalhando com Formul�rios
+  </title>
+</head>
+<body>
+
+  <form method="get">
+    <!-- A linha acima inicia o formulário usando o método GET para enviar dados -->
+    
+      <p><label>Nome do Cliente: <input name="nome" required placeholder="Seu nome"></label></p>
+      <!-- A linha acima contem o campo de entrada para o nome do cliente, sendo obrigatório com uso do PLACEHOLDER -->
+    
+      <p><label>Telefone: <input type=tel name="telefone" placeholder="Telefone"></label></p>
+      <!--  A linha acima contem o campo de entrada para número de telefone, sendo obrigatório com o uso do PLACEHOLDER -->
+    
+      <p><label>E-mail: <input type=email name="email" placeholder="email" ></label></p>
+      <!-- A linha acima contem o campo de entrada para endereço de e-mail, sendo obrigatório com o uso do PLACEHOLDER -->
+    
+      <fieldset>
+      <!-- A linha acima e uma tag que usada para agrupar e organizar elementos dentro de um formulário -->  
+      <legend> Tamanho da Pizza</legend>
+      <!-- A linha acima agrupa os campos para seleção do tamanho da pizza -->
+    
+      <p><label> <input type=radio name="tamanho" required value="pequena"> Pequena </label></p>
+      <!-- A linha acima tem a opção de tamanho pequeno, sendo obrigatório a seleção com o uso do REQUIRED -->
+    
+      <p><label> <input type=radio name="tamanho"  required value="média"> Média </label></p>
+      <!-- A linha acima tem a opção de tamanho médio, , sendo obrigatório a seleção com o uso do REQUIRED -->
+    
+      <p><label> <input type=radio name="tamanho"  required value="grande"> Grande </label></p>
+      <!-- A linha acima tem a opção de tamanho grande, , sendo obrigatório a seleção com o uso do REQUIRED -->
+    
+      </fieldset>
+    
+      <fieldset>
+      <legend> Extras </legend>
+      <!-- A linha acima agrupa os campos para seleção de ingredientes extras -->
+    
+      <p><label> <input type=checkbox name="extras" value="bacon"> Bacon </label></p>
+      <!-- A linha acima e da opção de bacon extra -->
+    
+      <p><label> <input type=checkbox name="extras" value="cheese"> Queijo extra </label></p>
+      <!-- A linha acima e da opção de queijo extra -->
+    
+      <p><label> <input type=checkbox name="extras" value="onion"> Cebola  </label></p>
+      <!-- A linha acima e da opção de cebola extra -->
+    
+      <p><label> <input type=checkbox name="extras" value="mushroom"> Cogumelos </label></p>
+      <!-- A linha acima e da opção de cogumelos extra -->
+    
+      </fieldset>
+    
+      <p><label>Hora da entrega: <input type=time min="11:00" max="21:00" step="900" name="entrega" required></label></p>
+      <!-- A linha acima e o campo para selecionar hora da entrega, com limite entre 11:00 e 21:00 -->
+    
+      <p><label>Dia da entrega: <input type=date  name="data" required></label></p>
+      <!-- A linha acima e o campo para selecionar a data de entrega -->
+    
+      <p><label>Instruções de entrega: <textarea name="comentarios" maxlength=1000></textarea></label></p>
+      <!-- A linha acima e área para colocar as observações ou instruções, com limite de 1000 caracteres -->
+    
+      <p><button>Fazer pedido</button></p>
+      <!-- A linha acima tem o botão para enviar o formulário de pedido -->
+</form>
+</body>
+</html>
