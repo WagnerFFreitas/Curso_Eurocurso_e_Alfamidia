@@ -30,7 +30,9 @@
 
  * Será criado as primeira paginas em HTML usando links: aula2.html, aula2-1 e aula2-2.html.
 
- vídeo 6 - Introdução ao HTML e apresentação do CSS
+***6º - Introdução ao HTML e apresentação do CSS***
+
+
  vídeo 7 - Integração entre HTML e CSS
  vídeo 8 - Visão geral de HTML com CSS
  vídeo 9 - Estrutura de posicionamento do CSS
