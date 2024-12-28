@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="screen and (min-width: 480px)" href="grande.css">
+    <link rel="stylesheet" media="screen and (max-width: 479px)" href="pequeno.css">
+
+    <style>
+
+
+        @media screen and (min-width: 480px) {
+            body {
+                font-size: 24px;
+            }
+            p.red_se_pequeno {
+                display: none;
+            }
+        }
+        @media screen and (max-width: 479px) {
+            body {
+                font-size: 16px;
+            }
+            p.red_se_pequeno {
+                color: red;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <p>Este texto vai aparecer em tamanhos diferentes em diferentes resoluções
+
+    <p class=red_se_pequeno>Este outro texto vai aparecer em vermelho em resoluções menores.
+
+</body>
+</html>

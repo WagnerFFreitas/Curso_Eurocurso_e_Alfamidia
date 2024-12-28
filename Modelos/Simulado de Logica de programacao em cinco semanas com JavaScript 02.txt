@@ -1,0 +1,80 @@
+Logica de programação em cinco semanas com JavaScript 02
+
+Exercício da segunda semana
+
+1) Observando o seguinte código que recebe dois números como entradas do usuário e exibe a soma dos dois:
+
+let x = prompt("entre com um número");
+let y = prompt("entre com outro número");
+alert(parseInt(x) + parseInt(y));
+
+Podemos afirmar que:
+
+a) ( )As funções parteInt são chamadas pois o javascript é uma linguagem fortemente tipada, e exige que os tipos sejam convertidos para números antes de qualquer operação com eles.
+b) ( )parseInt não é indispensável, e o código funcionará da mesma forma sem o uso destas funções, apenas executando "alert(x+y)" pois javascript é uma linguagem fracamente tipada, e as entradas x e y serão convertidas para números para realizar a soma
+c) ( )parseInt não é necessária, pois o retorno da função "prompt" já é um número
+d) ( )parseInt é necessária pois a função "prompt" retorna uma string, e o operador "+" gera uma concatenação entre strings, sendo necessário converter as variáveis para o tipo número.
+e) ( )parseInt é necessário e seria necessário mesmo que utilizados os operadores "-", "*" e "/", pois x e y receberam valores do tipo string, e o javascript não consegue nunca converter automaticamente entre tipos.
+
+2)Ao executar o seguinte código:
+
+let i = 5;
+let texto = "";
+while( i > 0 ) {
+    texto += i + ",";
+    i--;
+}
+alert(texto)
+
+O que é mostrado no alerta?
+
+a) ( )5,4,3,2,1
+b) ( )5,4,3,2,1,
+c) ( )5,4,3,2,1,0
+d) ( )5,4,3,2,1,0,
+e) ( )4,3,2,1,0,
+
+3)O seguinte código irá exibir qual número no alerta?
+
+let numero = 3;
+let acumulador = 0;
+while(numero < 6) {
+    acumulador += numero++;
+}
+alert(acumulador);
+
+a) ( )3
+b) ( )6
+c) ( )12
+d) ( )18
+e) ( )9
+
+4)Observando a linha de código abaixo, que é chamada várias vezes em determinado código, por estar dentro de um loop, podemos afirmar que:
+
+x += prompt("digite uma informação");
+
+a) ( )x é um número que poderá aumentar ou diminuir dependendo da entrada ser positiva ou negativa
+b) ( )x será do tipo string ou do tipo number de acordo com a entrada do usuário
+c) ( )A operação poderá ser de soma ou concatenação dependendo do valor de x
+d) ( )x será concatenado com cada valor digitado a cada execução desta linha de código
+e) ( )O código gerará um erro de execução pois faltou o comando parseInt
+
+5)Ao observar o programa abaixo:
+
+let entrada = 0;
+let total = 0;
+while (entrada < 10) {
+    entrada = parseInt(prompt("entre com um número"));
+    total += entrada;
+    entrada = 0;
+}
+alert(total);
+
+É correto afirmar que:
+
+a) ( )parseInt não é necessário por o javascript converte automaticamente de string para number
+b) ( )Total vai concatenar todos os valores digitados pelo usuário
+c) ( )O programa vai entrar em um loop infinito
+d) ( )O programa vai permanecer no loop até o usuário digitar o número 10
+e) ( )O programa vai somar os valores digitados, e ao final, vai exibir o total acumulado
+

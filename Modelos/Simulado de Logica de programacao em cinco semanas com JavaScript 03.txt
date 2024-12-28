@@ -1,0 +1,81 @@
+Logica de programação em cinco semanas com JavaScript 03
+
+Exercício da terceira semana
+
+1)A sequência de comandos abaixo é equivalente a qual das opções:
+
+if (A) {
+  alert("1");
+} else if (B) {
+  alert("1");
+} else if (!C) {
+  alert("1");
+}
+
+a) ( )if (A || B || C) alert("1");
+b) ( )if (A || B || !C) alert("1");
+c) ( )if (A && B && C) alert("1");
+d) ( )if (A && B && !C) alert("1");
+e) ( )if !(A || B || !C) alert("1");
+
+2)Ao final da sequência de códigos a seguir, qual o valor de v1?
+
+let v1 = 2
+let v2 = ++v1;
+let v3 = v1++;
+let v4 = v2 + 2*v3;
+v1 += v2 + v3 + v4;
+
+a) ( )15
+b) ( )16
+c) ( )17
+d) ( )18
+e) ( )19
+
+3)Ao observar o código abaixo podemos afirmar que:
+
+let i = 0;
+while ( i < 10 ) {
+   while (i < 15) {
+    i++
+  }
+  if (i > 13) continue;
+  i++
+}
+i. ao final da execução, i vai valer 10
+ii. o segundo loop while nunca é executado
+iii. substituir o primeiro comando "while" por "if" não iria mudar o resultado da execução do código
+
+a) ( )Apenas i está correta
+b) ( )Apenas ii está correta
+c) ( )Apenas iii está correta
+d) ( )Todas estão corretas
+e) ( )Todas estão erradas
+
+4)O código a seguir pode ser substituído por:
+
+let x = (a>b)?a:b;
+
+a) ( )if (a > b) { a } else { b };
+b) ( )if ( a > b ); { x = a; } else { x = b; }
+c) ( )x = (a > b );
+d) ( )if (a > b) { x = a; } else { x = b; }
+e) ( )x = if ( a > b ) { let x = a; } else { let x = b; }
+
+5)Ao executar o código abaixo, o alerta irá exibir:
+
+let i = 0;
+while ( (i % 2) == 0 ) {
+  i++;
+  if ( i == 10 ) break;
+  while ((i % 2) == 1) {
+    i++;
+  }
+}
+alert(i);
+
+a) ( )10
+b) ( )11
+c) ( )20
+d) ( )0
+e) ( )O alerta não será exibido pois o sistema entrará em um loop infinito.

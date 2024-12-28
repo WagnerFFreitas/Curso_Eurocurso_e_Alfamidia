@@ -1,0 +1,85 @@
+Logica de programação em cinco semanas com JavaScript 01
+
+Exercício da primeira semana
+
+1) No código abaixo qual o valor que será exibido no alerta?
+let n1 = 10;
+let n2 = 20;
+let n3 = 40;
+if (n3 = n1 + n2) {
+  alert(n3);
+} else {
+  alert(n1);
+}
+
+a) ( )10
+b) ( )20
+c) ( )30
+d) ( )40
+e) ( )50
+
+2)Qual das opções a seguir tem os valores respectivamente de n1, n2 e n3 definidos de tal forma que será exibida a
+mensagem Opção 2 ao executar o código abaixo.
+
+if (n1 >= n2 + n3) {
+  if (n2 > n3) {
+    alert("opção 1");
+  }
+} else {
+  if (n2 < n3) {
+    if (n2 == 10) {
+      alert("opção 2");
+    } else {
+      alert("opção 3");
+    }
+  }
+}
+
+a) ( )1,2,3
+b) ( )20,10,30
+c) ( )30,10,20
+d) ( )10,20,30
+e) ( )20,10,5
+
+3)Com base no código abaixo, indique a opção correta:
+
+if (n1 >= 10)
+  alert("entrou no if");
+  alert("n1 é maior ou igual a 10");
+alert("saiu do if");
+
+a) ( )Todos os alertas são sempre chamados
+b) ( )O segundo e terceiro alerta são sempre chamados, pois apenas o primeiro comando é executado no if
+c) ( )O primeiro alerta somente é chamado se n1 for maior que 10
+d) ( )O código vai gerar um erro e nenhum alerta vai ser exibido, pois não foram utilizadas as chaves
+e) ( )O segundo alerta só é mostrado se n1 for maior ou igual a 10
+
+4)Qual o número que será exibido ao executar o programa a seguir:
+
+let numero = 1;
+numero = numero + 1;
+numero = numero * 2;
+numero = numero + 1;
+numero = numero ** 2;
+numero = numero / 5;
+alert(numero);
+
+a) ( )1
+b) ( )2
+c) ( )3
+d) ( )4
+e) ( )5
+
+5)Observando o programa a seguir podemos dizer que:
+
+if ((n1 % 3) == 0) {
+  if ((n1 % 2) == 0)) {
+    alert("n1 é par e divisível por 3");
+  }
+}
+
+a) ( )O programa vai exibir a mensagem apenas se n1 for par e divisível por 3
+b) ( )O programa vai sempre exibir a mensagem
+c) ( )Os testes de par e divisível por 3 estão fora de ordem
+d) ( )O programa precisa ter comandos else
+e) ( )Se forem removidas as chaves o programa não funcionará
